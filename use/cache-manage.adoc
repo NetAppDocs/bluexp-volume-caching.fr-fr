@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: use/cache-manage.html 
+keywords: volume caching, bluexp volume caching 
+summary: 'La mise en cache du volume fournit un volume inscriptible persistant à un emplacement distant. Vous pouvez utiliser la mise en cache du volume BlueXP pour accélérer l"accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont parfaitement adaptés aux charges de travail exigeant une capacité de lecture maximale, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.' 
+---
+= Gérer un cache
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier un cache, modifier la règle d'export, redimensionner un cache et supprimer un cache.
+
+La mise en cache du volume BlueXP vous permet d'atteindre les objectifs suivants :
+
+* Afficher les détails du cache.
+* Attribuez une export policy différente à un cache.
+* Modifier la mise en cache d'un volume et sa taille, etc Edit aura la possibilité d'afficher et de modifier d'autres propriétés, et d'autres propriétés seront ajoutées en édition dans les versions à venir.
+* Redimensionnez un cache existant en fonction d'un pourcentage de la taille du volume d'origine.
+* Supprimer un cache.
+
+
+
+
+== Afficher les détails du cache
+
+Pour chaque mise en cache de volume, vous pouvez consulter le volume d'origine, l'environnement de travail, le volume de cache, etc.
+
+.Étapes
+. Dans le menu de navigation de gauche de BlueXP, sélectionnez *Mobility* > *Volume cache*.
++
+Vous pouvez afficher la liste des volumes de cache créés dans l'environnement de destination. La liste des caches affiche les détails du cache.
+
+. Pour filtrer la liste, sélectionnez l'option *Filtrer par +*.
+. Sélectionnez une ligne et sélectionnez l'option *actions …* à droite.
+. Sélectionnez *Afficher et modifier les détails*.
+. Vérifiez les détails.
+
+
+
+
+== Modifier un cache de volume
+
+Vous pouvez modifier le nom, la taille du volume et la règle d'export d'un cache.
+
+.Étapes
+. Dans le menu de navigation de gauche de BlueXP, sélectionnez *Mobility* > *Volume cache*.
+. Sélectionnez une ligne et sélectionnez l'option *actions …* à droite.
+. Sélectionnez *Afficher et modifier les détails*.
+. Dans l'onglet Configuration de base, vous pouvez éventuellement modifier le nom du cache et la taille du volume du cache.
+. Vous pouvez également développer l'onglet accès au cache et modifier les valeurs suivantes :
++
+.. Chemin de montage.
+.. Export policy différente de la export policy existante.
+
+
+. Pour modifier les détails des partages SMB/CIFS ou les règles d'export-policy, cliquez sur l'option permettant d'accéder à BlueXP System Manager.
+. Sélectionnez *Enregistrer*.
+
+
+
+
+== Attribuez une autre règle d'export de cache
+
+Vous pouvez attribuer une export policy différente à un cache.
+
+Les règles d'export-policy source doivent être appliquées au cluster cible.
+
+
+TIP: Vous pouvez affecter une export policy existante à un cache. Vous ne pouvez pas modifier les règles d'export-policy. Si vous devez modifier les règles d'export, vous pouvez utiliser NetApp System Manager.
+
+.Étapes
+. Dans le menu de navigation de gauche de BlueXP, sélectionnez *Mobility* > *Volume cache*.
+. Sélectionnez une ligne et sélectionnez l'option *actions …* à droite.
+. Sélectionnez *Modifier la règle d'export*.
+. Sélectionnez la règle d'export que vous souhaitez affecter au cache.
+. Sélectionnez *Enregistrer*.
+
+
+
+
+== Redimensionner une mise en cache de volume
+
+Vous pouvez modifier la taille du volume de cache en fonction d'un pourcentage du volume source.
+
+.Étapes
+. Dans le menu de navigation de gauche de BlueXP, sélectionnez *Mobility* > *Volume cache*.
+. Sélectionnez une ligne et sélectionnez l'option *actions …* à droite.
+. Sélectionnez *Redimensionner*.
+. Entrez un nouveau pourcentage de la taille du volume d'origine.
++
+Le volume du cache se redimensionnera au nouveau pourcentage.
+
+. Sélectionnez *Enregistrer*.
+
+
+
+
+== Supprime un cache de volume
+
+Si vous n'avez plus besoin du cache, vous pouvez le supprimer. Cette opération supprime la relation de mise en cache du volume et le cache du volume cible.
+
+.Étapes
+. Dans le menu de navigation de gauche de BlueXP, sélectionnez *Mobility* > *Volume cache*.
+. Sélectionnez une ligne et sélectionnez l'option *actions …* à droite.
+. Sélectionnez *Supprimer*.
+. Cochez la case.
+. Sélectionnez *Supprimer*.
+

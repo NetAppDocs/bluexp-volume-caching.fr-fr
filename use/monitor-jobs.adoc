@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: use/monitor-jobs.html 
+keywords: volume caching, bluexp volume caching 
+summary: 'La mise en cache du volume fournit un volume inscriptible persistant à un emplacement distant. Vous pouvez utiliser la mise en cache du volume BlueXP pour accélérer l"accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont parfaitement adaptés aux charges de travail exigeant une capacité de lecture maximale, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.' 
+---
+= Surveiller les travaux de mise en cache du volume sur la Time-Line
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez surveiller toutes les tâches de mise en cache de volume et en déterminer la progression.
+
+.Étapes
+. Dans le menu supérieur, sélectionnez image:settings-icon.png["Icône Paramètres de l'interface utilisateur"] > *Chronologie*.
+
+
+image:timeline.png["écran chronologie"]
+
+. Si vous le souhaitez, vous pouvez filtrer par heure, service, action, agent, ressource, utilisateur ou état.
+. Explorez tous les caches et les opérations.
+

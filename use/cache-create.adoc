@@ -1,0 +1,114 @@
+---
+sidebar: sidebar 
+permalink: use/cache-create.html 
+keywords: volume caching, bluexp volume caching 
+summary: 'La mise en cache du volume fournit un volume inscriptible persistant à un emplacement distant. Vous pouvez utiliser la mise en cache du volume BlueXP pour accélérer l"accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont parfaitement adaptés aux charges de travail exigeant une capacité de lecture maximale, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.' 
+---
+= Créer un cache
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer une mise en cache de volume entre Amazon FSX pour ONTAP, Cloud Volumes ONTAP et ONTAP sur site avec un ou plusieurs volumes source provenant de l'environnement de travail source en tant que source de cache. Vous choisissez ensuite la machine virtuelle de stockage pour les volumes de cache.
+
+Le volume du cache peut se trouver sur le même cluster ou sur un cluster différent de celui du volume source. Les volumes que vous sélectionnez pour le cache doivent appartenir à la même VM de stockage et les VM de stockage doivent utiliser les mêmes protocoles.
+
+
+TIP: Si les volumes ne sont pas admissibles à la mise en cache, ils sont grisés afin que vous ne puissiez pas les sélectionner.
+
+Vous pouvez entrer la taille des volumes de cache sous forme de pourcentage de la taille du volume source.
+
+
+NOTE: L'IPSpace utilisé par le volume de cache dépend de l'IPSpace utilisé par la machine virtuelle de stockage source.
+
+Le nom du volume de cache utilise le suffixe `pass:macros[_cache]` ajouté au nom du volume d'origine.
+
+
+
+== Étapes à partir de la page d'accueil de la mise en cache du volume BlueXP
+
+. Connectez-vous à BlueXP et sélectionnez *Mobility* > *Volume cache* dans le menu de navigation de gauche.
++
+Accédez à la page du tableau de bord de mise en cache du volume BlueXP. Lorsque vous commencez par le service, vous devez ajouter les informations de cache. Plus tard, le tableau de bord s'affiche et affiche les données relatives aux caches.
+
++
+
+NOTE: Si vous n'avez pas encore configuré de connecteur BlueXP, l'option *Ajouter un connecteur* apparaît à la place de *Ajouter un cache*. Dans ce cas, vous devez d'abord configurer le connecteur. Reportez-vous à la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Démarrage rapide de BlueXP"^].
+
++
+image:landing-page.png["page d'accueil pour la mise en cache des volumes"]
+
+. Sélectionnez *Ajouter un cache*.
+. Dans la page données du cache, sélectionnez la source et le cache cible de l'environnement de travail, puis sélectionnez *lancer l'assistant de mise en cache*.
+. Dans la page configurer vos caches, sélectionnez le ou les volumes à mettre en cache.
++
+
+NOTE: Vous pouvez sélectionner jusqu'à 50 volumes.
+
+. Faites défiler la page vers le bas pour apporter des modifications supplémentaires aux détails de la VM ou à la taille du volume.
+. Entrez la taille des volumes de cache sous forme de pourcentage de la taille du volume source.
++
+
+TIP: En règle générale, la taille du volume du cache doit correspondre à environ 15 % de la taille du volume source.
+
+. Cochez la case *cache Access* pour répliquer les règles d'export NFS et la configuration du partage SMB/CIFS du volume source vers le volume cache cible.
++
+Les règles d'export NFS et le partage SMB/CIFS du volume source sont ensuite répliqués sur le volume en cache. Si le protocole SMB/CIFS n'est pas activé sur la machine virtuelle de stockage du cache, le partage SMB/CIFS ne sera pas répliqué.
+
+. Vous pouvez également saisir le préfixe du nom du cache.
+
+
+Suffixe de `pass:macros[_cache]` est ajouté au nom au format : `<user-specified prefix>_<source volume name>_cache`
+
+. Sélectionnez *Créer des caches*.
++
+Le nouveau cache apparaît dans la liste mise en cache. Le nom du volume de cache s'affiche `pass:macros[_cache]` comme suffixe du nom du volume source.
+
+. Pour voir la progression de l'opération, dans le menu supérieur, sélectionnez image:settings-icon.png["icône paramètres"] > *Chronologie*.
+
+
+
+
+== Étapes à partir du canevas BlueXP
+
+. Dans le canevas BlueXP, sélectionnez l'environnement de travail.
+. Sélectionnez l'environnement source et faites-le glisser vers la destination.
+image:drag-n-drop.png["fonctionnalité de glisser-déposer pour créer le cache"]
+. Sélectionnez le service *Volume cache*.
++
+Cela crée un volume de cache de la source à la destination.
+
+. Dans le volet de droite, dans la zone Service de mise en cache, sélectionnez *Ajouter*.
+. Dans la page données du cache, sélectionnez l'environnement de travail à mettre en cache et sélectionnez *lancer l'assistant de mise en cache*.
+image:cache-data.png["fenêtre contextuelle des données de cache"]
+. Dans la page configurer vos caches, sélectionnez le ou les volumes à mettre en cache.
++
+
+NOTE: Vous pouvez sélectionner jusqu'à 50 volumes.
+
+. Faites défiler la page vers le bas pour apporter des modifications supplémentaires aux détails de la VM ou à la taille du volume.
+. Entrez la taille des volumes de cache sous forme de pourcentage de la taille du volume source.
++
+
+TIP: En règle générale, la taille du volume du cache doit correspondre à environ 15 % de la taille du volume source.
+
++
+image:create-cache.png["fenêtre d'ajout de cache"]
+
+. Cochez la case *cache Access* pour répliquer les règles d'export NFS et la configuration du partage SMB/CIFS du volume source vers le volume cache cible.
++
+Les règles d'export NFS et le partage SMB/CIFS du volume source sont ensuite répliqués sur le volume en cache. Si le protocole SMB/CIFS n'est pas activé sur la machine virtuelle de stockage du cache, le partage SMB/CIFS ne sera pas répliqué.
+
+. Vous pouvez également saisir le préfixe du nom du cache.
++
+Suffixe de `pass:macros[_cache]` est ajouté au nom au format : `<user-specified prefix>_<source volume name>_cache`
+
+. Sélectionnez *Créer des caches*.
++
+Le nouveau cache apparaît dans la liste mise en cache. Le nom du volume de cache s'affiche `pass:macros[_cache]` comme suffixe du nom du volume source.
+
+. Pour voir la progression de l'opération, dans le menu supérieur, sélectionnez image:settings-icon.png["icône paramètres"] > *Chronologie*.
+

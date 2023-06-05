@@ -1,0 +1,23 @@
+---
+settings:
+  name: BlueXP volume caching
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: fr-fr,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,it-it
+sidebar:
+  entries:
+  - title: Documents de mise en cache des volumes BlueXP
+    url: "/index.html"
+  - section: release-notes
+  - section: get-started
+  - section: use
+  - section: support
+  - title: Mentions légales
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family
+  sidebar_label: Toute la documentation BlueXP

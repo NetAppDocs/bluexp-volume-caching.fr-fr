@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-faq.html 
+keywords: volume caching faq, caching frequently asked questions 
+summary: Cette FAQ peut vous aider si vous cherchez juste une réponse rapide à une question. 
+---
+= Forum aux questions sur la mise en cache de volume BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cette FAQ peut vous aider si vous cherchez juste une réponse rapide à une question.
+
+*Quelle est l'URL de mise en cache du volume BlueXP ?*
+Pour l'URL, dans un navigateur, entrez : https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] Pour accéder à la console BlueXP.
+
+*Avez-vous besoin d'une licence pour utiliser la mise en cache du volume BlueXP ?*
+Aucun fichier de licence NetApp n'est requis.
+
+*Comment activez-vous la mise en cache du volume BlueXP ?*
+La mise en cache du volume BlueXP ne nécessite aucune activation. L'option de mise en cache du volume apparaît automatiquement dans le menu de navigation de gauche de BlueXP.

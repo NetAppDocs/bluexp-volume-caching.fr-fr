@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-prerequisites.html 
+keywords: what are bluexp volume caching requirements, volume caching prerequisites 
+summary: Commencez à utiliser la mise en cache du volume BlueXP en vérifiant la prise en charge de votre environnement, de votre accès réseau, de votre connexion et de votre navigateur web. 
+---
+= Prérequis pour la mise en cache du volume BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Commencez par vérifier que votre environnement opérationnel, votre connexion, votre accès au réseau et votre navigateur Web sont opérationnels.
+
+Pour utiliser la mise en cache du volume BlueXP, vérifiez que votre environnement répond à toutes les exigences.
+
+* ONTAP 9.8 et versions ultérieures
++
+** Autorisations ONTAP d'administration du cluster
+** LIFs intercluster sur les clusters
+
+
+* Dans BlueXP :
++
+** Le connecteur BlueXP doit être configuré dans NetApp BlueXP. Tous les clusters source et cible doivent se trouver sur le même connecteur BlueXP. Reportez-vous à la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Démarrage rapide de BlueXP"^] et https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["En savoir plus sur les connecteurs"^].
+** L'environnement de travail doit être configuré.
+** Les clusters doivent être ajoutés dans l'environnement de travail cible et dans un état ACTIVÉ ou dégradé.
+** Exigences standard de BlueXP. Reportez-vous à la section https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Exigences de BlueXP"].
+
+
+

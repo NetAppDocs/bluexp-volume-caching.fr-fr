@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-intro.html 
+keywords: how bluexp volume caching works, what is volume caching, bluexp 
+summary: 'La mise en cache du volume fournit un volume inscriptible persistant à un emplacement distant. Vous pouvez utiliser la mise en cache du volume BlueXP pour accélérer l"accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont parfaitement adaptés aux charges de travail exigeant une capacité de lecture maximale, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.' 
+---
+= Découvrez la mise en cache du volume BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La mise en cache des volumes, fonctionnalité du logiciel ONTAP 9, est une fonctionnalité de mise en cache à distance qui simplifie la distribution des fichiers et réduit la latence des réseaux WAN en rapprochant vos utilisateurs et vos ressources de calcul, tout en réduisant les coûts de la bande passante WAN. La mise en cache du volume fournit un volume inscriptible persistant à un emplacement distant. Vous pouvez utiliser la mise en cache du volume BlueXP pour accélérer l'accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont parfaitement adaptés aux charges de travail exigeant une capacité de lecture maximale, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.
+
+La mise en cache des volumes BlueXP vous offre des fonctionnalités de mise en cache pour le cloud, en particulier pour Amazon FSX pour NetApp ONTAP, Cloud Volumes ONTAP et pour vos environnements de travail sur site.
+
+Ce service permet également aux succursales d'accéder aux jeux de données de l'entreprise. En donnant accès aux _données actives_, des données qui doivent être consultées fréquemment depuis plusieurs contrôleurs d'un cluster, vous pouvez améliorer les performances des applications stratégiques. Grâce à la mise en cache des données actives locales sur plusieurs sites à travers le monde, vous améliorez la collaboration en permettant l'accès simultané à des jeux de données centralisés tout en réduisant le délai de réponse lors de l'accès aux données.
+
+La mise en cache du volume BlueXP est déployée dans un compartiment Amazon S3, desservi par AWS CloudFront.
+
+
+
+== Qu'est-ce qu'un cache ?
+
+Un cache est un emplacement de stockage temporaire qui réside entre un hôte et la source des données. L'objectif d'un cache est de stocker des portions fréquemment consultées des données source de manière à ce qu'elles soient servies plus rapidement qu'en récupérant les données à partir de la source. Les caches sont plus avantageux dans les environnements exigeants en lecture, où les données sont accessibles plusieurs fois et partagées par plusieurs hôtes. Un système de cache est plus rapide que le système avec une source de données, ce qui est obtenu grâce à un système de stockage plus rapide et à la proximité de l'espace de stockage en cache avec l'hôte.
+
+
+
+== Avantages de l'utilisation de la mise en cache des volumes BlueXP
+
+La mise en cache du volume BlueXP offre les avantages suivants :
+
+* Accélérez les performances dans une infrastructure de cloud hybride
+* Éliminez les silos clouds en mettant en cache les données d'un fournisseur cloud à un autre
+* Coûts de stockage réduits
+* Collaborez sur plusieurs sites géographiques
+* Utilisation d'un service géré par NetApp dans BlueXP
+* Capacité à s'adapter plus rapidement à l'évolution des environnements IT
+* Mise en cache de volumes à la demande ou par abonnement, hébergée dans le cloud
+
+
+
+
+== Les avantages de la mise en cache des volumes BlueXP
+
+La mise en cache du volume BlueXP vous permet d'exploiter pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :
+
+Le service de mise en cache du volume BlueXP vous permet d'exploiter pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :
+
+* Mise en cache des données d'un fournisseur de cloud à un autre
+* Afficher et modifier une export policy de cache
+* Redimensionner un cache existant
+* Supprimer un cache
+
+
+
+
+== Le coût
+
+NetApp ne vous facture pas pour l'utilisation du service de mise en cache du volume BlueXP, mais vous devez vérifier votre fournisseur cloud pour connaître les frais d'entrée et de sortie des données applicables.
+
+
+
+== Licences
+
+Aucune licence ONTAP particulière n'est requise pour la mise en cache du volume BlueXP.
+
+
+
+== Fonctionnement de la mise en cache des volumes BlueXP
+
+Un volume de cache est un volume peu rempli qui est sauvegardé par un volume source. Le volume en cache peut se trouver sur le même cluster que ou sur un autre cluster que celui du volume source.
+
+Le volume en cache permet d'accéder aux données du volume source sans que toutes les données soient dans le volume en cache. Le stockage des données dans le volume de cache est géré efficacement en conservant uniquement les données actives (données actives ou récemment utilisées).
+
+La mise en cache du volume BlueXP lit les requêtes si le volume en cache contient les données demandées par le client. Sinon, le service de mise en cache du volume demande les données au volume source et les stocke avant de répondre à la demande du client. Les demandes suivantes de données sont ensuite traitées directement depuis le volume de cache. Cela améliore les performances lorsque les mêmes données sont consultées de manière répétée, car après la première demande, les données ne doivent plus circuler sur le réseau ou être servies à partir d'un système surchargé.
