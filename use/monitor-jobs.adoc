@@ -16,8 +16,7 @@ Vous pouvez surveiller toutes les tâches de mise en cache de volume et en déte
 
 .Étapes
 . Dans le menu supérieur, sélectionnez image:settings-icon.png["Icône Paramètres de l'interface utilisateur"] > *Chronologie*.
-
-
++
 image:timeline.png["écran chronologie"]
 
 . Si vous le souhaitez, vous pouvez filtrer par heure, service, action, agent, ressource, utilisateur ou état.

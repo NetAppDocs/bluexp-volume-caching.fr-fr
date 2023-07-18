@@ -59,8 +59,7 @@ TIP: En règle générale, la taille du volume du cache doit correspondre à env
 Les règles d'export NFS et le partage SMB/CIFS du volume source sont ensuite répliqués sur le volume en cache. Si le protocole SMB/CIFS n'est pas activé sur la machine virtuelle de stockage du cache, le partage SMB/CIFS ne sera pas répliqué.
 
 . Vous pouvez également saisir le préfixe du nom du cache.
-
-
++
 Suffixe de `pass:macros[_cache]` est ajouté au nom au format : `<user-specified prefix>_<source volume name>_cache`
 
 . Sélectionnez *Créer des caches*.

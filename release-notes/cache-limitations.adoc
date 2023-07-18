@@ -4,7 +4,7 @@ permalink: release-notes/cache-limitations.html
 keywords: volume caching, bluexp 
 summary: Les limitations connues identifient les plates-formes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du service ou qui ne fonctionnent pas correctement avec celui-ci. 
 ---
-= Limitations connues
+= Limites connues
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

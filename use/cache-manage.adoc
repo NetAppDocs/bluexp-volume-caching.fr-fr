@@ -27,7 +27,7 @@ La mise en cache du volume BlueXP vous permet d'atteindre les objectifs suivants
 
 == Afficher les détails du cache
 
-Pour chaque mise en cache de volume, vous pouvez consulter le volume d'origine, l'environnement de travail, le volume de cache, etc.
+Pour chaque mise en cache, vous pouvez consulter le volume d'origine, l'environnement de travail, le volume de cache, etc.
 
 .Étapes
 . Dans le menu de navigation de gauche de BlueXP, sélectionnez *Mobility* > *Volume cache*.
@@ -42,7 +42,7 @@ Vous pouvez afficher la liste des volumes de cache créés dans l'environnement 
 
 
 
-== Modifier un cache de volume
+== Modifier un cache
 
 Vous pouvez modifier le nom, la taille du volume et la règle d'export d'un cache.
 
@@ -82,7 +82,7 @@ TIP: Vous pouvez affecter une export policy existante à un cache. Vous ne pouve
 
 
 
-== Redimensionner une mise en cache de volume
+== Redimensionner un cache
 
 Vous pouvez modifier la taille du volume de cache en fonction d'un pourcentage du volume source.
 
@@ -99,7 +99,7 @@ Le volume du cache se redimensionnera au nouveau pourcentage.
 
 
 
-== Supprime un cache de volume
+== Supprimer un cache
 
 Si vous n'avez plus besoin du cache, vous pouvez le supprimer. Cette opération supprime la relation de mise en cache du volume et le cache du volume cible.
 

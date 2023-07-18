@@ -16,18 +16,18 @@ Voici un aperçu des étapes nécessaires pour démarrer avec la mise en cache d
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Une seule"] Passer en revue les prérequis
 [role="quick-margin-para"]
-link:../get-started/cache-prerequisites.html["Assurez-vous que votre environnement répond à ces exigences"^].
+link:../get-started/cache-prerequisites.html["Assurez-vous que votre environnement répond à ces exigences"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"] Configurez le service de mise en cache du volume
 [role="quick-margin-para"]
-link:../get-started/cache-setup.html["Configurez la mise en cache du volume BlueXP"^].
+link:../get-started/cache-setup.html["Configurez la mise en cache du volume BlueXP"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Trois"] Et la suite ?
 [role="quick-margin-para"]
 Après avoir configuré le service, voici ce que vous pourriez faire ensuite.
 
 [role="quick-margin-list"]
-* link:../use/cache-create.html["Créer un cache"^].
-* link:../use/cache-use-overview.html["Gérer un cache, y compris le redimensionnement d'un volume de cache"^].
-* link:../use/monitor-jobs.html["Surveiller les opérations de mise en cache des volumes"^].
+* link:../use/cache-create.html["Créer un cache"].
+* link:../use/cache-use-overview.html["Gérer un cache, modifier un cache, redimensionner un cache ou supprimer un cache"].
+* link:../use/monitor-jobs.html["Surveiller les opérations de mise en cache des volumes"].
 
