@@ -18,8 +18,6 @@ La mise en cache des volumes BlueXP vous offre des fonctionnalités de mise en c
 
 Ce service permet également aux succursales d'accéder aux jeux de données de l'entreprise. En donnant accès aux _données actives_, des données qui doivent être consultées fréquemment depuis plusieurs contrôleurs d'un cluster, vous pouvez améliorer les performances des applications stratégiques. Grâce à la mise en cache des données actives locales sur plusieurs sites à travers le monde, vous améliorez la collaboration en permettant l'accès simultané à des jeux de données centralisés tout en réduisant le délai de réponse lors de l'accès aux données.
 
-La mise en cache du volume BlueXP est déployée dans un compartiment Amazon S3, desservi par AWS CloudFront.
-
 
 
 == Qu'est-ce qu'un cache ?
