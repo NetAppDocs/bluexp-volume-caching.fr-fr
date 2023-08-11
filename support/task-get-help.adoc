@@ -10,6 +10,7 @@ summary: 'NetApp prend en charge BlueXP de plusieurs façons. De nombreuses opti
 :imagesdir: ../media/
 
 
+[role="lead"]
 NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.
 
 
@@ -48,11 +49,11 @@ Outre les options d'auto-support mentionnées ci-dessus, vous pouvez travailler 
 
 
 .Étapes
-. Dans BlueXP, cliquez sur *aide > support*.
+. Dans BlueXP, sélectionnez *aide > support*.
 . Sur la page *Ressources*, choisissez l'une des options disponibles sous support technique :
 +
-.. Cliquez sur *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.
-.. Cliquez sur *Créer un dossier* pour ouvrir un dossier auprès d'un spécialiste du support NetApp :
+.. Sélectionnez *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.
+.. Sélectionnez *Créer un cas* pour ouvrir un ticket avec un spécialiste du support NetApp :
 +
 *** *Service* : sélectionnez le service auquel le problème est associé. Par exemple, BlueXP lorsqu'il est spécifique à un problème de support technique avec des flux de travail ou des fonctionnalités au sein du service.
 *** *Environnement de travail* : si applicable au stockage, sélectionnez *Cloud Volumes ONTAP* ou *sur site*, puis l'environnement de travail associé.
@@ -81,7 +82,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 .Une fois que vous avez terminé
 Une fenêtre contextuelle contenant votre numéro de dossier de support s'affiche. Un spécialiste du support NetApp va étudier votre dossier et vous recontacterons très rapidement.
 
-Pour consulter l'historique de vos dossiers d'assistance, vous pouvez cliquer sur *Paramètres > Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton à l'extrême droite vous permet de développer l'action pour voir les détails.
+Pour un historique de vos dossiers de support, vous pouvez sélectionner *Paramètres > Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton situé à l'extrême droite vous permet de développer l'action pour afficher les détails.
 
 Il est possible que vous rencontriez le message d'erreur suivant lors de la création d'un dossier :
 
@@ -120,14 +121,14 @@ Pour plus d'informations, consultez les étapes ci-dessous.
 
 
 .Étapes
-. Dans BlueXP, cliquez sur *aide > support*.
-. Cliquez sur *case Management* et si vous y êtes invité, ajoutez votre compte NSS à BlueXP.
+. Dans BlueXP, sélectionnez *aide > support*.
+. Sélectionnez *case Management* et si vous y êtes invité, ajoutez votre compte NSS à BlueXP.
 +
 La page *gestion des cas* affiche les cas ouverts associés au compte NSS associé à votre compte utilisateur BlueXP. Il s'agit du même compte NSS qui apparaît en haut de la page *gestion NSS*.
 
 . Modifiez éventuellement les informations qui s'affichent dans le tableau :
 +
-** Sous *cas de l'organisation*, cliquez sur *Afficher* pour afficher tous les cas associés à votre société.
+** Sous *cas de l'organisation*, sélectionnez *Afficher* pour afficher tous les cas associés à votre société.
 ** Modifiez la plage de dates en choisissant une plage de dates exacte ou en choisissant une autre période.
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-date-range.png["Capture d'écran de l'option au-dessus du tableau de la page gestion des cas qui vous permet de choisir une plage de dates exacte ou les 7 derniers jours, 30 derniers jours ou 3 derniers mois."]
@@ -136,20 +137,20 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-filter.png["Capture d'écran de l'option de filtre dans la colonne État qui vous permet de filtrer les dossiers correspondant à un état spécifique, comme actif ou fermé."]
 
-** Modifiez les colonnes qui apparaissent dans le tableau en cliquant sur image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["Icône plus qui apparaît dans le tableau"] puis choisissez les colonnes que vous souhaitez afficher.
+** Modifiez les colonnes qui apparaissent dans le tableau en sélectionnant image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["Icône plus qui apparaît dans le tableau"] puis choisissez les colonnes que vous souhaitez afficher.
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-columns.png["Capture d'écran affichant les colonnes que vous pouvez afficher dans le tableau."]
 
 
 
-. Pour gérer un dossier de demande de support existant, cliquez sur image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["Icône avec trois points qui apparaît dans la dernière colonne du tableau"] et en sélectionnant l'une des options disponibles :
+. Gérer un dossier existant en sélectionnant image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["Icône avec trois points qui apparaît dans la dernière colonne du tableau"] et en sélectionnant l'une des options disponibles :
 +
 ** *Voir cas*: Afficher tous les détails sur un cas spécifique.
 ** *Mettre à jour les notes de cas* : fournir des détails supplémentaires sur votre problème ou sélectionner *Télécharger les fichiers* pour joindre jusqu'à cinq fichiers.
 +
 Les pièces jointes sont limitées à 25 Mo par fichier. Les extensions de fichier suivantes sont prises en charge : txt, log, PDF, jpg/JPEG, rtf, doc/docx, xls/xlsx et csv.
 
-** *Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et cliquez sur *Fermer le cas*.
+** *Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et sélectionnez *Fermer le cas*.
 
 
 +

@@ -10,6 +10,7 @@ summary: 'Avant d"ouvrir un dossier de demande de support auprès du support tec
 :imagesdir: ../media/
 
 
+[role="lead"]
 L'enregistrement du support est requis pour votre compte BlueXP et pour chaque système Cloud Volumes ONTAP.
 
 
@@ -54,10 +55,10 @@ Pour vous inscrire au support et activer les droits de support, un utilisateur d
 Si vous êtes client NetApp avec un compte NSS, il vous suffit de vous inscrire pour obtenir du support dans BlueXP.
 
 .Étapes
-. Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône Paramètres et sélectionnez *informations d'identification*.
-. Cliquez sur *informations d'identification de l'utilisateur*.
+. Dans le coin supérieur droit de la console BlueXP, sélectionnez l'icône Paramètres, puis sélectionnez *informations d'identification*.
+. Sélectionnez *informations d'identification utilisateur*.
 . Sélectionnez *Ajouter des informations d'identification NSS* et suivez l'invite authentification du site de support NetApp (NSS).
-. Pour confirmer que le processus d'enregistrement a réussi, cliquez sur l'icône aide et sélectionnez *support*.
+. Pour confirmer que le processus d'enregistrement a réussi, sélectionnez l'icône aide et sélectionnez *support*.
 +
 La page *Ressources* doit indiquer que votre compte est enregistré pour le support.
 
@@ -92,7 +93,7 @@ Si vous possédez déjà des licences et des numéros de série NetApp, mais que
 Si vous êtes nouveau chez NetApp et que vous ne disposez pas d'un compte NSS, effectuez chacune des étapes ci-dessous.
 
 .Étapes
-. Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.
+. Dans le coin supérieur droit de la console BlueXP, sélectionnez l'icône aide, puis sélectionnez *support*.
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Capture d'écran du menu aide où support est la première option répertoriée"]
 
@@ -150,12 +151,12 @@ Ces informations d'identification NSS sont associées à votre ID de compte Blue
 
 
 .Étapes
-. Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.
+. Dans le coin supérieur droit de la console BlueXP, sélectionnez l'icône aide, puis sélectionnez *support*.
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Capture d'écran du menu aide où support est la première option répertoriée"]
 
-. Cliquez sur *NSS Management > Ajouter un compte NSS*.
-. Lorsque vous y êtes invité, cliquez sur *Continuer* pour être redirigé vers une page de connexion Microsoft.
+. Sélectionnez *gestion NSS > Ajouter un compte NSS*.
+. Lorsque vous y êtes invité, sélectionnez *Continuer* pour être redirigé vers une page de connexion Microsoft.
 +
 NetApp utilise Microsoft Azure Active Directory comme fournisseur d'identités pour les services d'authentification spécifiques au support et aux licences.
 
