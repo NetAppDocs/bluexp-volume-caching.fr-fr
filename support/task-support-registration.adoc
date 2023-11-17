@@ -26,7 +26,7 @@ L'inscription au support n'active pas le support NetApp pour un service de fichi
 
 Il existe deux types d'inscription pour activer les droits d'assistance :
 
-* Enregistrement de votre abonnement au support pour les identifiants de compte BlueXP (votre numéro de série à 20 chiffres 960xxxxxxxxx se trouve sur la page des ressources de support de BlueXP).
+* Enregistrement du numéro de série de votre compte BlueXP  (votre numéro de série 960xxxxxxxxx à 20 chiffres, disponible sur la page des ressources de support de BlueXP ).
 +
 Il sert d'ID d'abonnement unique pour tous les services de BlueXP. Chaque abonnement au support BlueXP au niveau du compte doit être enregistré.
 
@@ -40,9 +40,9 @@ L'enregistrement des deux types de numéros de série offre des fonctionnalités
 
 
 
-== Enregistrez votre compte BlueXP pour bénéficier de la prise en charge NetApp
+== Enregistrez BlueXP  pour bénéficier du support NetApp
 
-Pour vous inscrire au support et activer les droits de support, un utilisateur de votre compte BlueXP doit associer un compte sur le site de support NetApp à sa connexion BlueXP. Le fait de vous inscrire au support NetApp dépend de la présence ou non d'un compte sur le site de support NetApp (NSS).
+Pour vous inscrire au support et activer votre droit de support, un utilisateur de votre entreprise (ou compte) BlueXP  doit associer un compte du site de support NetApp à ses identifiants BlueXP . Le fait de vous inscrire au support NetApp dépend de la présence ou non d'un compte sur le site de support NetApp (NSS).
 
 
 
@@ -56,13 +56,13 @@ Si vous êtes client NetApp avec un compte NSS, il vous suffit de vous inscrire 
 . Sélectionnez *Ajouter des informations d'identification NSS* et suivez l'invite authentification du site de support NetApp (NSS).
 . Pour confirmer que le processus d'enregistrement a réussi, sélectionnez l'icône aide et sélectionnez *support*.
 +
-La page *Ressources* doit indiquer que votre compte est enregistré pour le support.
+La page *Ressources* doit indiquer que votre organisation BlueXP  est enregistrée pour le support.
 
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["Capture d'écran affichant un numéro de série de compte, une case à cocher verte et le texte enregistré pour le support."]
 
 +
-Notez que les autres utilisateurs BlueXP ne verront pas ce même statut d'enregistrement de support s'ils n'ont pas associé de compte sur le site de support NetApp à leur identifiant BlueXP. Toutefois, cela ne signifie pas que votre compte BlueXP n'est pas enregistré pour le support. Tant qu'un utilisateur du compte a suivi ces étapes, votre compte a été enregistré.
+Notez que les autres utilisateurs BlueXP ne verront pas ce même statut d'enregistrement de support s'ils n'ont pas associé de compte sur le site de support NetApp à leur identifiant BlueXP. Cependant, cela ne signifie pas que votre entreprise BlueXP  n'est pas enregistrée pour le support. Tant qu'un utilisateur de l'organisation a suivi ces étapes, votre organisation a été enregistrée.
 
 
 
@@ -111,7 +111,7 @@ La confirmation de la soumission de votre demande à NetApp et vous recommande d
 . Créez un compte sur le site de support NetApp en complétant le https://mysupport.netapp.com/site/user/registration["Formulaire d'inscription de l'utilisateur du site de support NetApp"^]
 +
 .. Veillez à sélectionner le niveau d'utilisateur approprié, qui est généralement *client/utilisateur final NetApp*.
-.. Veillez à copier le numéro de série du compte (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.
+.. Veillez à copier le numéro de série du compte (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Cela accélère le traitement.
 
 
 
@@ -125,7 +125,7 @@ Une fois que vous possédez votre compte sur le site de support NetApp, associez
 
 == Associer les informations d'identification NSS pour le support Cloud Volumes ONTAP
 
-Pour activer les workflows clés suivants pour Cloud Volumes ONTAP, vous devez associer les informations d'identification du site de support NetApp à votre compte BlueXP :
+L'association des informations d'identification du site de support NetApp à votre organisation BlueXP  est nécessaire pour activer les flux de travail clés suivants pour Cloud Volumes ONTAP :
 
 * Enregistrement des systèmes Cloud Volumes ONTAP avec paiement à l'utilisation pour bénéficier d'une assistance
 +
@@ -138,9 +138,9 @@ Il est nécessaire de fournir votre compte NSS afin que BlueXP puisse téléchar
 * Mise à niveau du logiciel Cloud Volumes ONTAP vers la dernière version
 
 
-L'association des informations d'identification NSS à votre compte BlueXP est différente du compte NSS associé à une connexion utilisateur BlueXP.
+L'association des informations d'identification NSS à votre organisation BlueXP  est différente du compte NSS associé à une connexion utilisateur BlueXP .
 
-Ces informations d'identification NSS sont associées à votre ID de compte BlueXP spécifique. Les utilisateurs qui appartiennent au compte BlueXP peuvent accéder à ces informations d'identification depuis *support > gestion NSS*.
+Ces informations d'identification NSS sont associées à votre identifiant d'organisation BlueXP  spécifique. Les utilisateurs qui appartiennent à l'organisation BlueXP  peuvent accéder à ces informations d'identification à partir de *support > gestion NSS*.
 
 * Si vous avez un compte au niveau du client, vous pouvez ajouter un ou plusieurs comptes NSS.
 * Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.
