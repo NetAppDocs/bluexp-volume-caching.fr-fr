@@ -14,11 +14,9 @@
   <block id="aad34603323b5d4e67ae4a686a15b2e5" category="summary">La mise en cache du volume fournit un volume inscriptible persistant à un emplacement distant. Vous pouvez utiliser la mise en cache du volume BlueXP pour accélérer l'accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont parfaitement adaptés aux charges de travail exigeant une capacité de lecture maximale, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.</block>
   <block id="5f63db6bf0512dc0612ee852c1faf373" category="doc">Mise en cache du volume BlueXP</block>
   <block id="666d3c7d6ea7cfc7ea6e6e6faed1cdd3" category="doc">Gérer un cache</block>
-  <block id="fc66df463880523a60b999aff387392a" category="paragraph">Vous pouvez modifier un cache, modifier la règle d'export, redimensionner un cache et supprimer un cache.</block>
   <block id="1c0d8013e981cb31dcc7e8733c4fe705" category="paragraph">La mise en cache du volume BlueXP vous permet d'atteindre les objectifs suivants :</block>
   <block id="00ac51c16cde551605ec6cf0d3b91416" category="list-text">Afficher les détails du cache.</block>
   <block id="06fc18e5e4898299f1a818098e8e94c7" category="list-text">Attribuez une export policy différente à un cache.</block>
-  <block id="8ba82ac05e167f153ba79532f2f1980a" category="list-text">Modifier la mise en cache d'un volume et sa taille, etc Edit aura la possibilité d'afficher et de modifier d'autres propriétés, et d'autres propriétés seront ajoutées en édition dans les versions à venir.</block>
   <block id="b8c0701847f6b5a25da10d75bdbcba97" category="list-text">Redimensionnez un cache existant en fonction d'un pourcentage de la taille du volume d'origine.</block>
   <block id="e33b91d9e0fc1cfb3b1e4c432687e47d" category="list-text">Supprimer un cache.</block>
   <block id="eed3d8fba58a64cd23112120a6117455" category="section-title">Afficher les détails du cache</block>
@@ -34,23 +32,19 @@
   <block id="f3bd519b868da90fe41b12102022d728" category="list-text">Vous pouvez également développer l'onglet accès au cache et modifier les valeurs suivantes :</block>
   <block id="4224fae747c5197aa6015f2364e1af12" category="list-text">Chemin de montage.</block>
   <block id="77cf0358c33e9b52d8fd3920268e696c" category="list-text">Export policy différente de la export policy existante.</block>
-  <block id="eccbd53b475458e412e8bcbe57009813" category="list-text">Pour modifier les détails des partages SMB/CIFS ou les règles d'export-policy, cliquez sur l'option permettant d'accéder à BlueXP System Manager.</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">Sélectionnez *Enregistrer*.</block>
   <block id="e48096df97c7e7e77282b4b97ee9bd9a" category="section-title">Attribuez une autre règle d'export de cache</block>
   <block id="4635bd9ae5cb389a0305a6b8455fa215" category="paragraph">Vous pouvez attribuer une export policy différente à un cache.</block>
   <block id="55d1d3e519ab62ebe0a1babb50ae6d72" category="paragraph">Les règles d'export-policy source doivent être appliquées au cluster cible.</block>
-  <block id="e7ce5893a6e3bdd09c32da72f9a3c69e" category="admonition">Vous pouvez affecter une export policy existante à un cache. Vous ne pouvez pas modifier les règles d'export-policy. Si vous devez modifier les règles d'export, vous pouvez utiliser NetApp System Manager.</block>
   <block id="4d418cdd8812dfcb356166d6eaf269f7" category="list-text">Sélectionnez *Modifier la règle d'export*.</block>
   <block id="b580ca1414e0a945196190cbfbc1f75d" category="list-text">Sélectionnez la règle d'export que vous souhaitez affecter au cache.</block>
   <block id="31bb5882b51789d8ff23370b949a73ec" category="paragraph">Vous pouvez modifier la taille du volume de cache en fonction d'un pourcentage du volume source.</block>
   <block id="782635f18c9a4c6e77f10be3b478b27a" category="list-text">Sélectionnez *Redimensionner*.</block>
   <block id="c108e3ea3f3ec7a419ec6372a3325d79" category="list-text">Entrez un nouveau pourcentage de la taille du volume d'origine.</block>
-  <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">Le volume du cache se redimensionnera au nouveau pourcentage.</block>
   <block id="8d4c7677b103c84ac6a97f6e946f6380" category="paragraph">Si vous n'avez plus besoin du cache, vous pouvez le supprimer. Cette opération supprime la relation de mise en cache du volume et le cache du volume cible.</block>
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">Sélectionnez *Supprimer*.</block>
   <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">Cochez la case.</block>
   <block id="15a05e063d4c5c1c840a1358ea5e2f1a" category="doc">Créer un cache</block>
-  <block id="f547278e453645a6383c4ea6320b1bfa" category="paragraph">Vous pouvez créer une mise en cache de volume entre Amazon FSX pour ONTAP, Cloud Volumes ONTAP et ONTAP sur site avec un ou plusieurs volumes source provenant de l'environnement de travail source en tant que source de cache. Vous choisissez ensuite la machine virtuelle de stockage pour les volumes de cache.</block>
   <block id="3bae4a7e1bd988883c56b21e3e66b177" category="paragraph">Le volume du cache peut se trouver sur le même cluster ou sur un cluster différent de celui du volume source. Les volumes que vous sélectionnez pour le cache doivent appartenir à la même VM de stockage et les VM de stockage doivent utiliser les mêmes protocoles.</block>
   <block id="40d1cd0fd7b32697fca346c77e81cf33" category="admonition">Si les volumes ne sont pas admissibles à la mise en cache, ils sont grisés afin que vous ne puissiez pas les sélectionner.</block>
   <block id="6594dee820a1fb7f669a0a7cf87596d3" category="paragraph">Vous pouvez entrer la taille des volumes de cache sous forme de pourcentage de la taille du volume source.</block>
@@ -303,15 +297,8 @@
   <block id="00ebffbe73c6303da2faaad0ab45e519" category="list-text">Éliminez les silos clouds en mettant en cache les données d'un fournisseur cloud à un autre</block>
   <block id="3539435a6de515609cc1b8543224f713" category="list-text">Coûts de stockage réduits</block>
   <block id="a1b38c81c5d745e1d6ec22e5dd6e03bc" category="list-text">Collaborez sur plusieurs sites géographiques</block>
-  <block id="a6d7999efa7a1a03a2c0e825c1cf9006" category="list-text">Utilisation d'un service géré par NetApp dans BlueXP</block>
-  <block id="c9ffd0422125f32e82a20e75ccd4fa42" category="list-text">Capacité à s'adapter plus rapidement à l'évolution des environnements IT</block>
-  <block id="02472e415a539d0a8886679760e38e96" category="list-text">Mise en cache de volumes à la demande ou par abonnement, hébergée dans le cloud</block>
   <block id="c544441b0664ccc643b832fb4c1a2198" category="section-title">Les avantages de la mise en cache des volumes BlueXP</block>
   <block id="afbfc91726ebc0228b09fab9d0c7cb8e" category="paragraph">La mise en cache du volume BlueXP vous permet d'exploiter pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :</block>
-  <block id="f291c3dfbe876e9b251168316e411067" category="paragraph">Le service de mise en cache du volume BlueXP vous permet d'exploiter pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :</block>
-  <block id="b165c27356ec72ed87e0d89023b56a29" category="list-text">Mise en cache des données d'un fournisseur de cloud à un autre</block>
-  <block id="6d14d0fea89a1c59e9646774b2dce3ef" category="list-text">Afficher et modifier une export policy de cache</block>
-  <block id="fd420f91fd55c70ed0b581da9becda92" category="list-text">Redimensionner un cache existant</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Le coût</block>
   <block id="c060b927fb39869f82ce75db89638641" category="paragraph">NetApp ne vous facture pas pour l'utilisation du service de mise en cache du volume BlueXP, mais vous devez vérifier votre fournisseur cloud pour connaître les frais d'entrée et de sortie des données applicables.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">Licences</block>
@@ -418,4 +405,16 @@ La mise en cache du volume BlueXP ne nécessite aucune activation. L'option de m
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">L'association des informations d'identification NSS à votre organisation BlueXP  est différente du compte NSS associé à une connexion utilisateur BlueXP .</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Ces informations d'identification NSS sont associées à votre identifiant d'organisation BlueXP  spécifique. Les utilisateurs qui appartiennent à l'organisation BlueXP  peuvent accéder à ces informations d'identification à partir de *support &gt; gestion NSS*.</block>
   <block id="ff45d71e69fb5930de79de7c94326d7b" category="doc">Mise en cache du volume</block>
+  <block id="a8bac84ff523e931f832e7db81860512" category="list-text">Utilisez un service géré par NetApp dans BlueXP </block>
+  <block id="6f8213fefb0b6762f1d9c530a2bae206" category="list-text">Adaptez-vous plus rapidement à l'évolution des environnements IT</block>
+  <block id="3d400de59ced76466bf7abdb0ec00cab" category="list-text">Utilisez une mise en cache de volumes à la demande ou par abonnement, hébergée dans le cloud</block>
+  <block id="36d85431ec6c5bc79927239a19ced905" category="list-text">Mise en cache des données d'un fournisseur de cloud à un autre.</block>
+  <block id="c3369e7530496c918d055b6297c1bc2f" category="list-text">Afficher et modifier une export policy de cache.</block>
+  <block id="00b68c9836b8e47862a5da8d7ba18007" category="list-text">Redimensionner un cache existant.</block>
+  <block id="61ab08005a7be6cbf1a790400ab44b84" category="paragraph">Vous pouvez créer un cache de volume entre Amazon FSX pour ONTAP, Cloud Volumes ONTAP et ONTAP sur site avec un ou plusieurs volumes source provenant de l'environnement de travail source en tant que source de cache. Vous choisissez ensuite la machine virtuelle de stockage pour les volumes de cache.</block>
+  <block id="75d18c897e2efc995fe22f47079933f7" category="paragraph">Vous pouvez modifier un cache de volume, modifier la règle d'export, redimensionner un cache et supprimer un cache.</block>
+  <block id="2ab14afb0bc8eed1346cbbb6dae409ce" category="list-text">Modifiez un cache de volume et des attributs tels que sa taille.</block>
+  <block id="b1173706a82c0b333329c5bf3779ae2a" category="list-text">Pour modifier les détails des partages SMB/CIFS ou les règles d'export-policy, cliquez sur l'option permettant d'accéder à ONTAP System Manager.</block>
+  <block id="535184ca902c3c0051ff3401e765baec" category="admonition">Vous pouvez affecter une export policy existante à un cache. Vous ne pouvez pas modifier les règles d'export-policy. Si vous devez modifier les règles d'export, vous pouvez utiliser ONTAP System Manager.</block>
+  <block id="c76e1ddfccba2139e45754bcf8276247" category="paragraph">Le volume de cache se redimensionne au nouveau pourcentage.</block>
 </blocks>

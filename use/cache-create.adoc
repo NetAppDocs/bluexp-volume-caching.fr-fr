@@ -12,7 +12,7 @@ summary: 'La mise en cache du volume fournit un volume inscriptible persistant �
 
 
 [role="lead"]
-Vous pouvez créer une mise en cache de volume entre Amazon FSX pour ONTAP, Cloud Volumes ONTAP et ONTAP sur site avec un ou plusieurs volumes source provenant de l'environnement de travail source en tant que source de cache. Vous choisissez ensuite la machine virtuelle de stockage pour les volumes de cache.
+Vous pouvez créer un cache de volume entre Amazon FSX pour ONTAP, Cloud Volumes ONTAP et ONTAP sur site avec un ou plusieurs volumes source provenant de l'environnement de travail source en tant que source de cache. Vous choisissez ensuite la machine virtuelle de stockage pour les volumes de cache.
 
 Le volume du cache peut se trouver sur le même cluster ou sur un cluster différent de celui du volume source. Les volumes que vous sélectionnez pour le cache doivent appartenir à la même VM de stockage et les VM de stockage doivent utiliser les mêmes protocoles.
 

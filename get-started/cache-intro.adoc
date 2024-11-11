@@ -34,9 +34,9 @@ La mise en cache du volume BlueXP offre les avantages suivants :
 * Éliminez les silos clouds en mettant en cache les données d'un fournisseur cloud à un autre
 * Coûts de stockage réduits
 * Collaborez sur plusieurs sites géographiques
-* Utilisation d'un service géré par NetApp dans BlueXP
-* Capacité à s'adapter plus rapidement à l'évolution des environnements IT
-* Mise en cache de volumes à la demande ou par abonnement, hébergée dans le cloud
+* Utilisez un service géré par NetApp dans BlueXP 
+* Adaptez-vous plus rapidement à l'évolution des environnements IT
+* Utilisez une mise en cache de volumes à la demande ou par abonnement, hébergée dans le cloud
 
 
 
@@ -45,12 +45,10 @@ La mise en cache du volume BlueXP offre les avantages suivants :
 
 La mise en cache du volume BlueXP vous permet d'exploiter pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :
 
-Le service de mise en cache du volume BlueXP vous permet d'exploiter pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :
-
-* Mise en cache des données d'un fournisseur de cloud à un autre
-* Afficher et modifier une export policy de cache
-* Redimensionner un cache existant
-* Supprimer un cache
+* Mise en cache des données d'un fournisseur de cloud à un autre.
+* Afficher et modifier une export policy de cache.
+* Redimensionner un cache existant.
+* Supprimer un cache.
 
 
 
